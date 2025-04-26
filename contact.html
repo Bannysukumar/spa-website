@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - N Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Offer Banner -->
+    <div class="offer-banner animate-fade-in">
+        <p>🎉 Grand Opening Offer! Get 30% Off on All Services 🎉</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar animate-fade-in">
+        <div class="logo">
+            <img src="images/n-wellness-logo.svg" alt="N Wellness Logo">
+            <span>N Wellness</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://img.freepik.com/premium-photo/pointing-portrait-business-woman-with-phone-call-opportunity-about-us-white-studio-background-face-person-employee-with-hand-gesture-cellphone-decision-project-review_590464-443249.jpg?ga=GA1.1.931528081.1744561927&semt=ais_hybrid&w=740');">
+        <h1 class="animate-slide-up">Get in Touch</h1>
+        <p class="animate-slide-up delay-200">We're Here to Help You on Your Wellness Journey</p>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+        <div class="info-container">
+            <div class="info-box animate-on-scroll animate-scale-in">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Visit Us</h3>
+                <p>171 Mahindra Luxuria<br>Pocharam, Sagarreddy<br>502293, Telangana</p>
+                <a href="https://maps.google.com" target="_blank" class="contact-link">Get Directions</a>
+            </div>
+            <div class="info-box animate-on-scroll animate-scale-in delay-100">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Call Us</h3>
+                <p>+91 9398778311</p>
+                <p>Mon - Sun: 9:00 AM - 9:00 PM</p>
+                <a href="tel:+919398778311" class="contact-link">Call Now</a>
+            </div>
+            <div class="info-box animate-on-scroll animate-scale-in delay-200">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Us</h3>
+                <p>info@nwellness.com</p>
+                <a href="mailto:info@nwellness.com" class="contact-link">Send Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="form-container">
+            <div class="form-content animate-on-scroll animate-slide-up">
+                <h2>Send us a Message</h2>
+                <p>We'll get back to you as soon as possible</p>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="japanese-head-spa">Japanese Head Spa</option>
+                            <option value="warm-stone-massage">Warm Stone Massage</option>
+                            <option value="body-polishing">Body Polishing</option>
+                            <option value="aromatherapy">Aromatherapy</option>
+                            <option value="foot-reflexology">Foot Reflexology</option>
+                            <option value="facial">Facial Treatments</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <h2 class="animate-on-scroll animate-slide-up">Our Location</h2>
+        <div class="map-container animate-on-scroll animate-scale-in">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.0405100473186!2d78.57883797487566!3d17.401751483849775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9f9a8c523983%3A0x129c21e1f934ea89!2sMahindra%20Splendour!5e0!3m2!1sen!2sin!4v1710425163089!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="map-info">
+            <div class="info-card">
+                <h3><i class="fas fa-map-marker-alt"></i> Visit Our Spa</h3>
+                <p>171 Mahindra Luxuria</p>
+                <p>Pocharam, Sagarreddy</p>
+                <p>502293, Telangana</p>
+                <a href="https://maps.app.goo.gl/E2xNU2EwAw7nUMF76" class="direction-button" target="_blank">
+                    <i class="fas fa-directions"></i> Get Directions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/916301846681" class="whatsapp-button" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section animate-on-scroll animate-fade-in">
+                <img src="images/n-wellness-logo.svg" alt="N Wellness Logo" class="footer-logo">
+                <p>N Wellness</p>
+            </div>
+            <div class="footer-section animate-on-scroll animate-fade-in delay-100">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section animate-on-scroll animate-fade-in delay-200">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 171 Mahindra Luxuria</p>
+                <p>Pocharam, Sagarreddy</p>
+                <p>502293, Telangana</p>
+                <p><i class="fas fa-phone"></i> +91 9398778311</p>
+                <p><i class="fas fa-envelope"></i> info@nwellness.com</p>
+            </div>
+            <div class="footer-section animate-on-scroll animate-fade-in delay-300">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 N Wellness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Intersection Observer Script -->
+    <script>
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.visibility = 'visible';
+                    entry.target.classList.add('animate-on-scroll');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+            animatedElements.forEach(element => {
+                element.style.visibility = 'hidden';
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html> 
