@@ -1,50 +1,64 @@
-# Build Your Vision - Website
+<!-- readme-seo: bannysukumar-professional-v4 -->
 
-A modern, responsive website for Build Your Vision (BYV), a premium website solutions provider. This website showcases our services and expertise in creating exceptional digital experiences.
+# N Wellness
 
-[![License](https://img.shields.io/github/license/Bannysukumar/spa-website)](https://github.com/Bannysukumar/spa-website/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/spa-website)](https://github.com/Bannysukumar/spa-website/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/spa-website)](https://github.com/Bannysukumar/spa-website/commits/main)
+N Wellness is a static HTML site. The home page title is "N Wellness - Experience Holistic Wellness", and the home page includes a grand-opening offer banner. The repository also has services, about, and contact pages.
 
 ## Overview
 
-A modern, responsive website for Build Your Vision (BYV), a premium website solutions provider. This website showcases our services and expertise in creating exceptional digital experiences.
+`index.html`, `services.html`, `about.html`, and `contact.html` share `styles.css`. Images live in `images/`. There is no `package.json` and no framework config. An earlier description called this site Build Your Vision. The current home page does not use that name. It uses N Wellness.
 
-
-What is actually in the repository: `images/`. GitHub reports the primary language as HTML.
-
-Published site recorded on the repository: https://spa-website-two.vercel.app
+The repository homepage is https://spa-website-two.vercel.app.
 
 ## Features
 
+- Home page with the N Wellness title and an offer banner
+- Services, about, and contact pages
+- Shared stylesheet `styles.css`
 
-- Responsive design that works on all devices
-- Modern and clean user interface
-- Smooth animations and transitions
-- Contact form for client inquiries
-- Location map integration
-- Social media integration
+## Tech Stack
+
+| Technology | Where it shows up |
+|---|---|
+| HTML | `index.html`, `services.html`, `about.html`, `contact.html` |
+| CSS | `styles.css` |
+
+## Architecture
+
+Static HTML pages linked to one stylesheet and the `images` folder. No backend is in this repository.
 
 ## Project Structure
 
 ```text
 spa-website/
-├── images/
-├── about.html
-├── contact.html
 ├── index.html
 ├── services.html
+├── about.html
+├── contact.html
 ├── styles.css
+└── images/
 ```
 
-## Getting Started
+## Prerequisites
+
+- A web browser
+
+## Installation
 
 ```bash
 git clone https://github.com/Bannysukumar/spa-website.git
 cd spa-website
 ```
 
-## Deployment
+Open `index.html` in a browser.
 
-- The repository homepage is https://spa-website-two.vercel.app.
+## Usage
+
+Start at `index.html`. Use the services, about, and contact pages for the other sections.
+
+## Demo
+
+https://spa-website-two.vercel.app
 
 ## Contributing
 
@@ -56,8 +70,6 @@ Licensed under MIT. See [LICENSE](LICENSE).
 
 ## Author
 
-[Banny Sukumar](https://github.com/Bannysukumar)
+Banny Sukumar
 
-- GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
-- Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
-- LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
+GitHub: https://github.com/Bannysukumar
