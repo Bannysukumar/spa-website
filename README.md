@@ -2,7 +2,19 @@
 
 A modern, responsive website for Build Your Vision (BYV), a premium website solutions provider. This website showcases our services and expertise in creating exceptional digital experiences.
 
+[![License](https://img.shields.io/github/license/Bannysukumar/spa-website)](https://github.com/Bannysukumar/spa-website/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/spa-website)](https://github.com/Bannysukumar/spa-website/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/spa-website)](https://github.com/Bannysukumar/spa-website/commits/main)
+
+## Overview
+
+A modern, responsive website for Build Your Vision (BYV), a premium website solutions provider. This website showcases our services and expertise in creating exceptional digital experiences.
+
+
+What is actually in the repository: `images/`. GitHub reports the primary language as HTML.
+
+Published site recorded on the repository: https://spa-website-two.vercel.app
+
 ## Features
+
 
 - Responsive design that works on all devices
 - Modern and clean user interface
@@ -13,66 +25,39 @@ A modern, responsive website for Build Your Vision (BYV), a premium website solu
 
 ## Project Structure
 
-```
-.
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles
-├── images/            # Image assets
-│   ├── logo.png       # Company logo
-│   └── hero-bg.jpg    # Hero section background
-└── README.md          # Project documentation
-```
-
-## Setup Instructions
-
-1. Clone the repository
-2. Ensure all image assets are placed in the `images` directory
-3. Open `index.html` in a web browser to view the website
-
-## Required Assets
-
-- Company logo (40x40px recommended)
-- Hero background image (high-resolution, 1920x1080px recommended)
-- Social media links
-- Google Maps API key (for location map)
-
-## Customization
-
-The website uses CSS variables for easy customization. Main colors can be modified in the `:root` section of `styles.css`:
-
-```css
-:root {
-    --primary-color: #00A67E;
-    --secondary-color: #333;
-    --background-color: #f9f9f9;
-    --text-color: #333;
-    --white: #ffffff;
-}
+```text
+spa-website/
+├── images/
+├── about.html
+├── contact.html
+├── index.html
+├── services.html
+├── styles.css
 ```
 
-## Browser Support
+## Getting Started
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+```bash
+git clone https://github.com/Bannysukumar/spa-website.git
+cd spa-website
+```
 
-## Contact
+## Deployment
 
-For any inquiries, please contact:
-- Email: Buildyourvision@gmail.com
-- Phone: +91 9398778311
+- The repository homepage is https://spa-website-two.vercel.app.
+
+## Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-© 2025 BYV. All rights reserved.
+Licensed under MIT. See [LICENSE](LICENSE).
 
-<!-- readme-seo: bannysukumar -->
+## Author
 
-## Open source
+[Banny Sukumar](https://github.com/Bannysukumar)
 
-This repository is open source and maintained by [Banny Sukumar](https://github.com/Bannysukumar). Spa Website is published so other developers can study the code and contribute.
-
-## License
-
-Released under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar. See [CONTRIBUTING.md](CONTRIBUTING.md) if you want to help.
+- GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
+- Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
+- LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
